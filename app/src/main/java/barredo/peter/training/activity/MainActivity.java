@@ -1,4 +1,4 @@
-package barredo.peter.training;
+package barredo.peter.training.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import barredo.peter.training.R;
 import layout.SecondFragment;
 import layout.FirstFragment;
 

@@ -1,4 +1,4 @@
-package barredo.peter.training;
+package barredo.peter.training.activity;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -13,6 +13,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import barredo.peter.training.R;
 
 public class SecondActivity extends AppCompatActivity {
 

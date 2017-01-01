@@ -1,8 +1,10 @@
-package barredo.peter.training;
+package barredo.peter.training.activity;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import barredo.peter.training.R;
 
 public class ThirdActivity extends AppCompatActivity {
 
@@ -17,4 +19,13 @@ public class ThirdActivity extends AppCompatActivity {
         actionBar.setDisplayUseLogoEnabled(true);
 
     }
+
+    public void startService(){
+
+    }
+
+    public void stopService(){
+
+    }
+
 }
