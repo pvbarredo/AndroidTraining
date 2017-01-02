@@ -31,7 +31,12 @@
         <service
             android:name=".service.ServiceTraining"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.drawerTraining"
+            android:label="@string/title_activity_drawer_training"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

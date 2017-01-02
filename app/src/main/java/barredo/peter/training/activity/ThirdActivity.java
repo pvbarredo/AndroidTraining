@@ -1,10 +1,14 @@
 package barredo.peter.training.activity;
 
+import android.app.Service;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import barredo.peter.training.R;
+import barredo.peter.training.service.ServiceTraining;
 
 public class ThirdActivity extends AppCompatActivity {
 
@@ -20,12 +24,17 @@ public class ThirdActivity extends AppCompatActivity {
 
     }
 
-    public void startService(){
+    public void startService(View view){
+//        Intent intent = new Intent(ThirdActivity.this, ServiceTraining.class);
+//        startService(intent);
 
+        Intent intent = new Intent(ThirdActivity.this, drawerTraining.class);
+        startActivity(intent);
     }
 
-    public void stopService(){
-
+    public void stopService(View view){
+        Intent intent = new Intent(ThirdActivity.this, ServiceTraining.class);
+        stopService(intent);
     }
 
 }
